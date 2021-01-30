@@ -12,7 +12,8 @@ for (var i = 0; i < valoresUnicos.length; i++) {
 		
 	}	
 
-		acurrencias.push({numero:valoresUnicos[i],occurrencias:contador})
+		// acurrencias.push({numero:valoresUnicos[i],occurrencias:contador})
+		acurrencias.push(contador)
 }
 
 console.log('arrayPrimario',numero)
